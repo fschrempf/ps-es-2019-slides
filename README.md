@@ -1,21 +1,19 @@
-# Interactive Slides for "1. Esslinger Preacher Slam"
+# Interactive Slides for "2. Esslinger Preacher Slam"
 
 This project uses the [reveal.js HTML presentation framework](https://github.com/hakimel/reveal.js)
 and [slam.js](https://github.com/fri-sch/slam.js) to provide interactive slides
-for a poetry slam, that took place in Esslingen, Germany in 2018.
+for a poetry slam, that takes place in Esslingen, Germany in 2019.
 
 The contestants present their contributions on stage and get rated by the
 audience. As the ratings are presented, they are entered into the control
 interface and shown to the audience.
 
-For more information and a video of the event (German) look [here](https://kirchenfernsehen.de/video/erster-esslinger-preacher-slam/).
-
 ## Usage
 
 1. Clone the repository.
 
-       git clone https://github.com/fri-sch/ps-es-2018-slides.git
-       cd ps-es-2018-slides
+       git clone https://github.com/fri-sch/ps-es-2019-slides.git
+       cd ps-es-2019-slides
 
 2. Install the dependencies.
 
@@ -37,4 +35,4 @@ For more information and a video of the event (German) look [here](https://kirch
 
 Licensed under the MIT license, see LICENSE file.
 
-Copyright (C) 2018 Frieder Schrempf
+Copyright (C) 2019 Frieder Schrempf
