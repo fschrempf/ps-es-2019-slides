@@ -124,11 +124,13 @@ body, p, ol, ul, li, a, div, span, h1, h2, h3 {
 /* Style of rating result chart */
 .chart {
   width: 100%;
+  list-style-type: none !important;
 }
 
 .chart > li {
   position: relative;
   margin-bottom: 2% !important;
+  font-size: 0.95em;
 }
 
 .chart > li .bar {
@@ -137,16 +139,15 @@ body, p, ol, ul, li, a, div, span, h1, h2, h3 {
   height: 100%;
   position: absolute;
   display: inline-block;
-  left: calc(25% + 10px);
+  left: calc(35% + 10px);
 }
 
 .chart > li .left {
   color: #ffffff;
   background-color: transparent;
-  position: absolute;
   display: inline-block;
   padding-left: 10px;
-  width: 25%;
+  width: 35%;
 }
 
 .chart > li .bar .right {
