@@ -71,6 +71,13 @@ body, p, ol, ul, li, a, div, span, h1, h2, h3 {
 }
 
 .artists .points > span.crossed {
+  opacity: 0.5;
+}
+
+.artists .points > span.crossed > .crossedCard {
+  position: absolute;
+  font-size: 1.4em;
+  font-family: 'Arial' !important;
   color: red !important;
 }
 
