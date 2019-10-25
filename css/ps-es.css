@@ -172,6 +172,12 @@ body, p, ol, ul, li, a, div, span, h1, h2, h3 {
   width: 50%;
 }
 
-.round-overview > div ol {
-  width: 100%;
+.round-overview.round1.round2 > div ol {
+  width: 80%;
+}
+
+.round-overview.round1 > div ol,
+.round-overview.round2 > div ol,
+.round-overview.round3 > div ol {
+  width: 35%;
 }
